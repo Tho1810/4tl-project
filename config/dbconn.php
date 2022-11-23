@@ -10,3 +10,4 @@ if (mysqli_connect_errno())
   date_default_timezone_set("Asia/Manila"); 
 ?>
 <!-- Hello my name is Nam  -->
+<!-- Hello my name is Tho -->
