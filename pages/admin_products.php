@@ -35,7 +35,7 @@
         <div class="main">
             <div class="section section-basic">
                 <div class="container">
-                      <h2>All Product List</h2>
+                      <h2>Tất cả danh sách sản phẩm</h2>
                       <a class="btn btn-primary btn-round" href="admin_index.php"><i class="now-ui-icons arrows-1_minimal-left"></i> &nbsp Back to index</a>
                       <hr color="orange"> 
                 <div class="col-md-12">
@@ -100,13 +100,14 @@
             </div>
         </div>
 <br><br><br><br>
+
 <footer class="footer" data-background-color="black">
             <div class="container">
                 <nav>
                     <ul>
                         <li>
                             <a href="" target="_blank">
-                                Creative ABC
+                               4TL
                             </a>
                         </li>
                         <li>
@@ -118,7 +119,7 @@
                     &copy;
                     <script>
                         document.write(new Date().getFullYear())
-                    </script>, Designed and Coded by Serve(8) Web Solutions, Inc.
+                    </script> Được thiết kế và viết mã bởi nhóm 4TL.
                 </div>
             </div>
         </footer>

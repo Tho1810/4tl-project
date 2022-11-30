@@ -33,7 +33,7 @@
     
     <link href="../assets/style.css" rel="stylesheet"/>
     <!--     inserted     -->
-
+    <link rel="stylesheet" href="sp.css">
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -73,18 +73,33 @@
                             <p>Products</p>
                         </a>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="orders.php">
                             <i class="now-ui-icons shopping_cart-simple"></i>
                             <p>Orders</p>
                         </a>
                     </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="orders.php">
+                            <i class="now-ui-icons shopping_cart-simple"></i>
+                            <p>Sản Phẩm</p>
+                        </a>
+                    </li> -->
+                    <li><a href="">Shop <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="submenu">
+                                <li><a href="sanpham.php">TEE</a></li>
+                                <li><a href="#">SHIRT</a></li>
+                                <li><a href="#">SALE</a></li>
+                            </ul>
+                        </li>
                     <li class="nav-item">
                         <a href="logout.php" class="nav-link" href="" onclick="scrollToDownload()">
                             <i class="now-ui-icons ui-1_lock-circle-open"></i>
                             <p>Logout</p>
                         </a>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com" target="_blank">
                             <i class="fa fa-twitter"></i>
@@ -116,7 +131,7 @@
                     <div class="content-center brand">
                         <img src="../assets/img/elogo.png" alt="Circle Image" class="rounded-circle">
                         <br><br>
-                        <h3>Raspberry Pi, Arduino, Sensors, Modules, and Electronic components.</h3>
+                        <h3>Được Thiết Kế Và Tạo Bới Nhóm 4TL</h3>
                     </div>
                 </div>
             </div>
@@ -127,7 +142,7 @@
                 <div class="container">
                     <br>
                     <div class="col-md-12">
-                        <h2 class="title">Electricks' products</h2>
+                        <h2 class="title">Sản Phẩm Của 4TL</h2>
                         <div class="typography-line">
                             <p>
                             “The reason it seems that price is all your customers care about is that you haven’t given them anything else to care about.”-Seth Godin, American author, entrepreneur, marketer, and public speaker.

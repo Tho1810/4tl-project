@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header {
+    width: 100%;
+
+}
+
+
+.logo img {
+    float: left;
+    display: block;
+    width: 250px;
+}
+
+.noidunglogo {
+    font-family: ;
+    font-weight: 700;
+    float: left;
+    font-size: 170%;
+    line-height: 165px;
+    color: rgb(168, 27, 27);
+    text-shadow: 5px 5px 5px burlywood;
+}
+
+.thanhmenu {
+    width: 100%;
+    height: 18%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 7000;
+    background-color: white;
+    box-shadow: 0 0 5px 2px #ccc;
+}
+
+.menu>ul.root {
+    float: left;
+    margin-top: 4%;
+
+
+}
+
+.menu ul.root>li {
+    list-style: none;
+    float: left;
+    height: 40px;
+    margin-top: 1em;
+    width: 100px;
+    position: relative;
+    margin-left: 60px;
+
+
+}
+
+.menu ul.root>li>a {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+
+}
+
+.menu ul.root>li>a:hover {
+    color: rgb(202, 20, 20);
+    line-height: none;
+
+}
+
+ul.submenu {
+    width: 150px;
+    background: #ccc;
+    position: absolute;
+    display: none;
+    min-height: 100px;
+}
+
+ul.submenu li {
+    list-style: none;
+}
+
+ul.submenu a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    line-height: 30px;
+    text-indent: 10px;
+    margin-left: -30px;
+    border-bottom: 1px solid black;
+}
+
+ul.root>li:hover ul.submenu {
+    display: block;
+
+}
+
+ul.submenu a:hover {
+    color: rgb(202, 20, 20);
+}
+
+
+.baner img {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.tieude_banchay {
+    text-align: center;
+    margin: 2%;
+}
+
+#article {
+    text-align: center;
+    margin: auto;
+}
+
+.osanpham {
+
+    border: 1px solid gray;
+    background-color: #f9f9f9;
+    float: left;
+    width: 22%;
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+    height: 450px;
+}
+
+.img_sanpham {
+    text-align: center;
+}
+
+.img_sanpham>img {
+    width: 90%;
+
+}
+
+.button_sanpham {
+
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 3%;
+    display: none;
+}
+
+.img_sanpham>img:hover {
+    text-align: center;
+
+
+}
+
+.osanpham .img_sanpham:hover>.button_sanpham {
+    display: block;
+    
+}
+
+.button_sanpham>button {
+    width: 120px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+
+    opacity: 0.5;
+    background-color: rgb(17, 16, 16);
+
+}
+
+.button_sanpham button:hover {
+    border: 2px solid blue;
+}
+
+.ten_sanpham {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.gia_sanpham {
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(158, 36, 36);
+}
+
+.tieude_sanphammoi {
+
+    margin: 2%;
+}
+
+.danhgia_sanpham {
+    margin-top: 9%;
+}
+
+.danhgia_sanpham i {
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.danhgia_sanpham i:hover {
+    color: red;
+}
+
+footer {
+    width: 100%;
+    float: left;
+
+}
+
+.tieudefooter h3 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 1.5%;
+    margin-bottom: 10px;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+
+}
+
+.menu_footer {
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+}
+
+.tieude_mini {
+    font-weight: 700;
+    color: dimgray;
+    text-align: left;
+    font-size: 20px;
+}
+
+.menu_footer span {
+    color: red;
+}
+
+.icon {
+    font-size: 250%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.img_thanhtoan {
+    width: 100%;
+}
+
+.img_thanhtoan img {
+    width: 50%;
+}
+
+.img_thanhtoan p {
+    margin-bottom: 5%;
+    font-size: 150%;
+    font-weight: 550;
+}
+
+.dangky_mini p {
+    font-size: 120%;
+    font-weight: 600;
+}
+
+.dangky_mini input {
+    width: 50%;
+    height: 2em;
+}
+
+.dangky_mini button {
+    width: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 2.3em;
+    color: white;
+    background-color: black;
+}
+
+.dangky_mini button:hover {
+    color: red;
+}
+
+.lienhe_footer {
+    font-size: 120%;
+    font-weight: 600;
+    margin-bottom: 10%;
+}
+
+.noidung_footer .dam {
+    font-size: 120%;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.img_gg img {
+    width: 20%;
+    float: left;
+    margin-top: 5%;
+}
+
+.noidung_footer p {
+    font-size: 100%;
+    font-weight: 550;
+    line-height: 30px;
+}
+
+
+.menu_footer .hang3 {
+    font-size: 120%;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.logo_bocongthuong img {
+    margin-top: 5%;
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.footer_1 {
+    margin-left: 8%;
+}
+
+.footer_2 {
+    margin-left: 10%;
+}
+
+.footer_3 {
+    margin-left: 40%;
+}
+
+.chantrang {
+    float: left;
+    width: 100%;
+}
+
+.chantrang p {
+    font-size: 100%;
+    font-weight: 700;
+    padding: 1.5%;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px 2px #ccc;
+
+}
+
+.icon i:hover {
+    color: red;
+}
+
+.footer_3 p:hover {
+    color: red;
+}
+
+.search {
+    display: none;
+}
+
+.search {
+    list-style: none;
+    float: left;
+
+}
+
+.search li .input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(233, 211, 15);
+    border-radius: 5px;
+    float: left;
+}
+
+.search li button {
+    background-color: rgb(75, 75, 233);
+    color: white;
+}
+
+.menu li .input:hover {
+    border: 1px solid red;
+}
+
+.menu>ul.root>:hover>ul.search {
+    display: block;
+}

@@ -121,8 +121,8 @@
                             echo ''.$row['firstname'].'';
 
                             ?>
-                        </h2>
-                        <p class="category">Administrator</p>
+                        </h2
+                        <p class="category">Người Quản Lý</p>
                     </div>
                 </div>
             </div>
@@ -140,7 +140,7 @@
                 </div>
                <div class="row">
                     <div class="col-md-6 ml-auto mr-auto">
-                        <h4 class="title text-center">Administrator Dashboard</h4>
+                        <h4 class="title text-center">Bảng điều khiển cho quản trị viên</h4>
                         <div class="nav-align-center">
                             <ul class="nav nav-pills nav-pills-primary" role="tablist">
                                 <li class="nav-item">
@@ -184,7 +184,7 @@
                                     <br>
                                     <div class="row">
                                         <div align="center">
-                                            <h3>Product Information</h3>
+                                            <h3>Thông tin sản phẩm</h3>
                                         </div>
                                     </div>
                                     <br>                
